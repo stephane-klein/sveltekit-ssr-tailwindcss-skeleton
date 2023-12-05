@@ -3,6 +3,13 @@
 I try to gather and maintain, in this skeleton, my standard components configuration
 that I use in my SvelteKit web application projects.
 
+TailwindCSS has been installed with [Add Tailwind CSS to Svelte](https://github.com/svelte-add/tailwindcss/) ["Svelte
+Add"](https://github.com/svelte-add), with this command:
+
+```
+$ pnpx svelte-add@latest tailwindcss --tailwindcss-forms --tailwindcss-typography
+```
+
 Components and libraries:
 
 - ✅ [SSR](https://kit.svelte.dev/docs/page-options#ssr) [SvelteKit](https://github.com/sveltejs/kit) with [Hydration](https://kit.svelte.dev/docs/glossary#hydration)
